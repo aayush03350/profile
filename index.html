@@ -1,0 +1,192 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Internal/CSS/Style.css" rel="stylesheet">
+    <link href="Internal/CSS/queries.css" rel="stylesheet">
+    <link href="Resource/CSS/1.3 grid.css" rel="stylesheet">
+    <link href="Resource/CSS/normalize.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+
+    <title>Shivamani Bartaula</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="row">
+                <img src="Internal/Picture/S.png" class="header-logo">
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#skill">Skills</a></li>
+                        <li><a href="#project">project</a></li>
+                        <li><a href="https://aayushbartaula.hashnode.dev/" target="_blank">Blog</a></li>
+                        <li><a href="#contact-form">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </nav>
+    </header>
+
+    <section class="main">
+        <div class="row">
+             <div class="col span-1-of-2">
+                 <div class="my-info-paragraph">
+                    <h1>Hi&#44; i&#39;m Shivamani <br>
+                    Web developer&#44 <br>Content creater &amp; blogger</h1>
+                    <a href="Internal/Resume.pdf" class="btn" download target="_blank">Download CV</a>
+                </div>
+             </div>
+                 <div class="col span-1-of-2">
+                  <div class="Profile-box">
+                    <img class="profile-pic" src="Internal/Picture/Profile-removebg-preview.png">
+                    <!-- <img class="blob" src="Resource/picture/blob.svg"> -->
+                    <!-- <img class="blob1" src="/External Resources/picture/blob (1).svg"> -->
+                   </div> 
+                 </div>
+
+        </div>
+    </section>
+
+    <section id="skill" class="skill-section">
+        <div class="row">
+          <h2>My tech Stack</h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-2">
+             <div class="skills">
+                <img src="Resource/picture/icons8-html-5-48.png" class="skill-logo" alt="HTML-Logo"><h3 class="skill-language">HyperText Markup Language (HTML)</h3>
+                <p class="skill-paragraph">I have 2 years Experience in HTML and I completed more than 30 project.</p>
+             </div>
+             <div class="skills">
+                <img src="Resource/picture/icons8-css3-48.png" class="skill-logo" alt="HTML-Logo"><h3 class="skill-language">Cascading Style Sheets(CSS)</h3>
+                <p class="skill-paragraph">I have 2 years Experience in CSS and I completed more than 30 project including CSS art. </p>
+             </div>
+             <div class="skills">
+                <img src="Resource/picture/icons8-javascript-48.png" class="skill-logo" alt="HTML-Logo"><h3 class="skill-language">JavaScript(JS)</h3>
+                <p class="skill-paragraph">I have 1 years Experience in JavaScript and I have completed more than 10 project</p>
+            </div>
+            </div>
+
+            <div class="col span-1-of-2">
+                <div class="my-skill-box">
+                    <img src="Resource/picture/Skill-picture.png" class="skill-pitcure" alt="skill-picture">
+                    <!-- <img src="Resource/picture/my-skill-blob.svg" class="my-skill-blob"> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="project" class="Project">
+        <div class="row">
+            <h2 class="recent-project">Recent Project</h2>
+        </div>
+         <div class="row">
+        
+            <div class="col span-1-of-3 project-box"><h3 class="project-description">They are Comming Soon</h3></div>
+            <div class="col span-1-of-3 project-box"><h3 class="project-description">They are Comming Soon</h3></div>
+            <div class="col span-1-of-3 project-box"><h3 class="project-description">They are Comming Soon</h3></div>
+         </div>
+    </section>
+
+
+
+    <section id="contact-form" class="section-form">
+        <div class="row">
+            <h2 class="form-header">Contact me</h2>
+        </div>
+        <div class="row">
+            <form method="POST" action="#" class="forms">
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="fname">Name</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                      <input type="text" name="name" id="fname" placeholder="Full Name" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="email" name="email" id="email" placeholder="Please Enter Email" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label name="find-us" for="findus">How did you find us?</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <select name="find-us" id="findus">
+                        <option value="facebook" selected>Facebook</option>
+                        <option value="Google" >Google</option>
+                        <option value="Freinds" >Freinds</option>
+                        </select>
+                    </div>
+                    </div>
+                   
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label name="newsletter" for="news">Newsletter ?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="checkbox" name="news" id="news" checked> Yes please
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="textarea">Drop us a line</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                           <textarea name="message" placeholder="Your Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                         </div>
+                         <div class="col span-2-of-3">
+                             <input type="submit" value="Send it!">
+                    </div>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+
+
+    </section>
+
+
+
+
+    <footer>
+        <div class="row">
+                <ul class="social-link">
+                    <li><a href="https://twitter.com/Aayush_Bartaula" target="_blank"><ion-icon class="Social-icons-icon" name="logo-twitter"></ion-icon></a></li>
+                    <li><a href="https://www.linkedin.com/in/shivamani-bartaula-3a5a61152/" target="_blank"><ion-icon class="Social-icons-icon" name="logo-linkedin"></ion-icon></ion-icon></a></li>
+                    <li><a href="https://hashnode.com/@Aayush03350" target="_blank"><span class="iconify Social-icons-icon" data-icon="simple-icons:hashnode"></span></a></li>
+                
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <p>
+                Copyright © Shivamani Bartaula 2021
+            </p>
+        </div>
+    </footer>
+
+    
+
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+</body>
+</html>

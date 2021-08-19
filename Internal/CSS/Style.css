@@ -1,0 +1,269 @@
+/* color 
+#51C4D3
+#171010;
+#E8F0F2
+ */
+/* ----------- Basic Setup --------- */
+*{
+    margin: 0;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+html{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100,300,400;
+    text-rendering: optimizeLegibility;
+    color: #B2B1B9;
+    font-size: 18px;
+}
+.row{
+    width: 1140px;
+    margin: 0 auto;
+}
+section{
+    padding: 5rem 0;
+}
+h1,h3{
+    color: rgb(0, 0, 0);
+}
+h2{
+    width: 70%;
+    margin: 0 auto;
+    color: #51C4D3;
+    text-transform: uppercase;
+}
+h3{
+
+}
+
+/* ------------- Header Navigation Bar ------------- */
+
+.header-logo{
+    height: 6rem;
+    float: left;
+    width: 6rem;
+    border-radius: 10rem;
+}
+.header-logo:hover,
+.header-logo:active,
+input[type=submit]:hover{
+    background-color:#fff;
+    padding: 1rem;
+    transition: padding 0.3s;
+}
+
+.main-nav{
+    float: right;
+    margin-top: 2rem;
+}
+.main-nav ul li{
+    display: inline-block;
+}
+.main-nav ul li a,
+.main-nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 2rem;
+    color: #171010;
+    padding: 0.8rem;
+}
+
+.main-nav ul li a:hover,
+.main-nav ul li a:active,
+.btn:hover,
+input[type=submit]:hover{
+    background-color: #51C4D3;
+    color: white;
+    border-radius: 5rem;
+    transition: background-color 0.3s,color 0.4s,border-radius 0.3s;
+    
+}
+
+
+/* ----------- Main section ----------- */
+.my-info-paragraph{
+    position: absolute;
+    width: 1140px;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.5;
+}
+.Profile-box{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.profile-pic{
+    background-color: #51C4D3;
+    border-radius: 2000px;
+    height: 100%;
+    width: 0 auto;
+}
+
+.btn,
+input[type=submit]{
+    text-decoration: none;
+    padding: 1rem 1rem;
+    text-transform: uppercase;
+    background-color: #37b2c2b2;
+    border-radius: 3rem;
+    color: #171010;
+    border:1px solid #51C4D3
+}
+
+
+/* -------------- My skills ------------- */
+
+.skill-section{
+    position: relative;
+}
+
+.skill-logo{
+    display: block;
+    background-color: #E8F0F2;
+    border-radius: 50%;
+    padding: 1rem;
+    float: left;
+    clear: both;
+}
+.skill-language{
+    display: inline-block;
+    padding: 2rem;
+}
+.skill-paragraph{
+    padding: 0.6rem 2rem;
+    margin-left: 5rem;
+}
+.skill-pitcure{
+    /* position: absolute; */
+    height: 350px;
+    width: 350px;
+    right: 3rem;
+    top: 5rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    /* z-index: 999; */
+    box-shadow: 1rem 1rem 1rem #B2B1B9;
+
+}
+.my-skill-blob{
+    position: absolute;
+    height: 100%;
+    width: 70%;
+    right: -2rem;
+    top: 1rem;
+    z-index: -1;
+}
+
+
+/* --------- My Project ---------- */
+.recent-project{
+    text-align: center;
+    
+}
+.recent-project::after{
+    display: block;
+    width: 20%;
+    content: " ";
+    border-bottom: 2px solid #51C4D3;
+    margin:30px auto auto auto;
+}
+.project-box{
+    display: inline-block;
+    height: 15.6rem;
+    background-color: #E8F0F2;
+    position: relative;
+    border-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem #B2B1B9;
+   
+}
+.project-box:hover{
+    margin-top: -0.1rem;
+    transition: margin-top 0.4s ease;
+
+}
+.project-description{
+    position: absolute;
+   top: 50%;
+   left: 15%;
+}
+.project-boxes{
+    width: 100%;
+    padding: 0 2%;
+}
+/* ---------------- Contact section Form ------------ */
+
+.form-header{
+text-align: center;
+}
+.form-header::after{
+    display: block;
+    width: 10%;
+    margin: 0 auto;
+    content: " ";
+    border-bottom: 2px solid #51C4D3;
+    margin:25px auto auto auto;
+}
+
+
+
+/* ---------------- Form ------------- */
+.forms{
+    width: 60%; 
+    margin: 0 auto;
+    /* padding: 10px; */
+}
+input[type=text],
+input[type=email],
+textarea,
+select{
+    width: 50%;
+   padding: 7px;
+   border-radius: 3px;
+   border: 1px solid gray;
+}
+textarea{
+    resize: none;
+    height: 40%;
+}
+
+*:focus{outline: none;}
+
+
+/* ----------- Fotter ----------- */
+footer{
+    background-color: #51c4d3b2;
+    padding: 2rem;
+}
+
+.social-link{
+    text-align: center;
+    list-style: none;
+    margin-bottom: 1rem;
+}
+.social-link li{
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+
+.social-link li a:link,
+.social-link li a:visited{
+    color:#171010;
+    text-decoration: none;
+}
+
+.social-link li a:hover,
+.social-link li a:active{
+    color:#fff;
+    text-decoration: none;
+}
+
+footer p{
+    text-align: center;
+    color: #171010;
+}
